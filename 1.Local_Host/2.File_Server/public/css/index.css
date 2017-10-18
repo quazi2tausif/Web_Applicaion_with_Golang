@@ -1,0 +1,15 @@
+div{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+div h1{
+    text-align: center;
+    color: tomato;
+
+}
+
+div img{
+    padding: 10px 10px;
+    width: 50%;
+}
