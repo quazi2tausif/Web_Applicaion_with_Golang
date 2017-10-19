@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+    Project Name  : Cookie
+    Document Name : data.html
+    Author Name   : Quazi Tausif Ahmed
+    Date          : 19/10/2017
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="/logout" method="POST">
+            <table>
+                <tr>
+                    <td>Your Name : </td>
+                    <td> {{.Name}} </td>
+                </tr>
+                <tr>
+                    <td>Your Cookie : </td>
+                    <td> {{.Value}} </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="logout">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
