@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+    Project Name  : DataStore(Get_All_Data)
+    Document Name : done.html
+    Author Name   : Quazi Tausif Ahmed
+    Date          : 23/10/2017
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Done</title>
+    <style>
+        table td{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center">
+        <h3>Saved Data</h3>
+        <table>
+            <tr>
+                <th>Word</th>
+                <th>Definition</th>
+            </tr>
+            {{range .}}
+            <tr>
+                <td> {{.Word}} </td>
+                <td> {{.Definition}} </td>
+            </tr>
+            {{end}}
+        </table>
+    </div>
+</body>
+
+</html>
